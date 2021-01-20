@@ -1,0 +1,31 @@
+.my_navbar {
+    position: sticky;
+    top: 0;
+    z-index: 9999999999;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    top: 800px;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+
+}
+
+#About {
+    background: linear-gradient(#00FFAA 0%, #00B2FF 100%);
+}
